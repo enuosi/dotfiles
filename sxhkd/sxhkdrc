@@ -20,7 +20,12 @@ super + Escape
 #
 super + e
 	thunar
-
+Print
+	scrot
+Shift + Print
+	scrot --focused
+Alt + Print
+	scrot --select
 # hide window
 super + v
  bspc node -g hidden
