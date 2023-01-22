@@ -1,0 +1,22 @@
+#!/bin/bash
+
+setxkbmap us,ro -variant ,std -option 'grp:alt_caps_toggle' &
+#xrandr --output HDMI-0 --mode 1920x1080 --rate 60.00 &
+xsetroot -cursor_name left_ptr &
+#feh --bg-tile $HOME/Pictures/wallpapers/tiled/floral2.png &
+#picom -fb --backend glx --vsync &
+dunst &
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+sleep 1 && pgrep -x xfce4-clipman > /dev/null || xfce4-clipman &
+sleep 1 && pgrep -x redshift-gtk > /dev/null || redshift-gtk &
+#xfce4-power-manager &
+kdeconnect-indicator &
+nm-applet &
+#transmission-gtk -m &
+sleep 1 && firefox &
+
+#while xsetroot -name "`date` `uptime | sed 's/.*,//'`"
+#do
+#        sleep 1m
+#done &
+#exec dwm
