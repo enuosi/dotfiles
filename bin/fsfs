@@ -1,0 +1,79 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from gallery_dl import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from mutagen._tools.mid3cp import entry_point
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(entry_point())
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from mutagen._tools.mid3iconv import entry_point
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(entry_point())
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from mutagen._tools.mid3v2 import entry_point
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(entry_point())
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from mutagen._tools.moggsplit import entry_point
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(entry_point())
+
+xrandr --output HDMI-A-0 --off
+
+#xrandr --output HDMI-A-0 --auto
+xrandr --output eDP --primary --mode 1920x1080 --rotate normal --output HDMI-A-0 --mode 1920x1080 --rate 120.00 --rotate normal --left-of eDP
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from mutagen._tools.mutagen_inspect import entry_point
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(entry_point())
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from mutagen._tools.mutagen_pony import entry_point
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(entry_point())
+
+#!/bin/bash
+cd '/home/enu/Downloads/Subahibi FVHD Full English' && wine BGI.exe
+
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from yt_dlp import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
