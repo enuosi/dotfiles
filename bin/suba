@@ -1,0 +1,2 @@
+#!/bin/bash
+cd '/home/enu/Downloads/Subahibi FVHD Full English' && wine BGI.exe
